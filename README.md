@@ -27,25 +27,29 @@ JavaScript é uma linguagem de tipagem dinâmica. Isso significa que você não 
 `false`(0) e `true`(1)
 
 * Null (nulo)
+
 null pode ser utilizado para representar um valor vazio
 
 * Undefined
+
 valor que nao foi definido
 
 * Number
+
 valores numéricos (podem ser inteiros ou decimais 5 ou 5.0)
 
 * BigInt (numero grandao)
+
 o tipo Number é limitado por isso o tipo de dado BigInt foi criado. Com ele é possível representar inteiros de precisão não exata. Para fazer uso dele você pode adicionar um n ao final do número inteiro ou chamar a função BigInt() como mostrado abaixo:
-``
+````
 90071992547409910n * 100n
 9007199254740991000n
-``
+````
 com o Number:
-``
+````
 90071992547409910 * 100
 9007199254740990000
-``
+````
 
 String (representa textos)
 ```
