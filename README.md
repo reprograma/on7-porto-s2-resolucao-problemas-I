@@ -85,12 +85,12 @@ a = 2 -> atribui valor de 2 para a
  ```
 
 ### Triple equals vs Double equals
-``
+```
 2 == 2 // true
 2 === 2 // true
 2 === "2" // false
 2 == "2" // true
-``
+```
 
 O double equals vai tentar nos ajudar na comparação, e ao notar que
 estamos tentando comparar tipos diferentes (string e number) ele vai tentar converter a string para number. No caso acima ele consegue e por isso temos o resultado true.
@@ -108,11 +108,11 @@ E a internet não perdoa as surpresas:
 
  ## Operadores Lógicos
 
- ```
+ ``
  &&  significa E
  ||  significa OU
 
- ```
+ ``
 
 # Estruturas Condicionais
 
@@ -144,16 +144,16 @@ if (condição) {
 }
 ````
 
-- Exemplo:
+Exemplo:
 
-* Se for maior de idade pode entrar:
+Se for maior de idade pode entrar:
 ```
 if (idade >= 18) {
   console.log('pode entrar')
 }
 ```
 
-* Agora queremos também mandar mensagem caso não seja maior de idade:
+Agora queremos também mandar mensagem caso não seja maior de idade:
 
 ```
 if (idade >= 18) {
@@ -165,7 +165,8 @@ if (idade >= 18) {
 else funciona como um 'se não'.
 Se for maior de idade pode entrar, se não for maior de idade, não entra.
 
-* Agora mudamos um pouco a regra e complicamos um poco:
+
+Agora mudamos um pouco a regra e complicamos um poco:
 - se for maior de 18 entra
 - se for mais de 18 e menor de 21 entra, mas nao pode consome bebida alcolica
 - se for maior de 21 entra e pode consome bebida alcolica.
@@ -179,7 +180,6 @@ if (idade >= 18 && idade < 21) {
   console.log('entrada permitida apenas para maiores de idade.')
 }
 ````
-
 O else if pode ser repetido quantas vezes for necessário.
 
 ## Switch Case
