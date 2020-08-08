@@ -251,25 +251,28 @@ if (2 > 1) {
 
 # Variáveis
 
-Uma variável faz referencia a um espaço na memória do computador utilizado para guardar informações que serão usadas em seus programas
+Uma variável faz referencia a um espaço na memória do computador utilizado para guardar informações que serão usadas em seus programas.
 
-Declaração:
+Criamos a variável nome e atribuimos o valor string de 'natalya' a ela.
+em seguida acessamos a variavel e a mostramos na tela.
+```
+var nome = 'natalya'
+console.log(nome)
+```
+
+
+Na declaração usamos as palavras reservadas (var, let ou const):
 ```
 let batata = 'pure'
 ```
 
 
-Reatribuíção
+Reatribuíção:
 ```
 batata = 'batata-frita'
 ```
 
-```
-var nome = 'natalya'
-console.log(nome)
-```
-acima criamos a variável nome e atribuimos o valor string de 'natalya' a ela.
-em seguida acessamos a variavel e a mostramos na tela.
+
 
 ## var
 
@@ -279,7 +282,7 @@ Diferentemente da const e da let ela não tem escopo de bloco.
 
 Ou seja:
 ````
-if (2>1) {
+if (2 > 1) {
   var nome = 'larissa'
 }
 console.log(nome)
@@ -307,7 +310,7 @@ Ela também pode ter o seu valor reatribuido mas não pode ser redeclarado.
 
 Mas diferente da var ela tem escopo de bloco:
 ````
-if (2>1) {
+if (2 > 1) {
   let nome = 'larissa'
 }
 console.log(nome)
@@ -334,7 +337,7 @@ A const (constante) não pode ter seu valor reatribuído nem redeclarado.
 Diferentemente da let e da var. E assim com a let ela também tem escopo de bloco.
 
 ````
-if (2>1) {
+if (2 > 1) {
   const nome = 'larissa'
 }
 console.log(nome) //ReferenceError: nome is not defined

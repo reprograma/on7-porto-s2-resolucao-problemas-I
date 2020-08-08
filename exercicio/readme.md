@@ -25,6 +25,17 @@ regras:
 * para ser __reprovada__ a média tem que ser menor que 5
 * para ir para __recuperação__ a média tem que ser maior ou igual a 5 e menor que 7
 
+Para pegar inputs no terminal precisamos baixar o
+'readline-sync'
+
+````
+npm install readline-sync
+`````
+
+no topo do arquivo do seu código:
+````
+const input = require("readline-sync");
+````
 
 - finalizado o trabalho suba o código:
       - ``git add .``
