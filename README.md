@@ -108,11 +108,10 @@ E a internet não perdoa as surpresas:
 
  ## Operadores Lógicos
 
- ``
+ ```
  &&  significa E
  ||  significa OU
-
- ``
+ ```
 
 # Estruturas Condicionais
 
