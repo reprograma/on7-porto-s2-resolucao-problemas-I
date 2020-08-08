@@ -229,14 +229,14 @@ No escopo local, variaveis que sao criadas dentro dele não podem ser acessadas 
 
 Escopos locais são criados através de funções e blocos de código.
 
-````
+```
 // escopo global
 
 if (2 > 1) {
   //escopo local
   const restrito = 'olá'
 }
-
+```
 console.log(restrito) // ReferenceError: restrito is not defined
 
 agora vamos definir a variável `popular` fora do bloco de if (no escopo global).
