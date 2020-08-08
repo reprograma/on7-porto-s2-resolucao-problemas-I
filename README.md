@@ -16,6 +16,8 @@ Para checar digite na linha de comando:
 Se tiver instalado vai aparecer a versão.
 Caso não tenha, esse é o link para instalação: https://nodejs.org/en/download/
 
+
+
 # Tipos em Javascript
 
 ## Tipagem dinâmica
@@ -26,21 +28,15 @@ JavaScript é uma linguagem de tipagem dinâmica. Isso significa que você não 
 * Boolean
 `false`(0) e `true`(1)
 
-* Null (nulo)
+* Null (nulo) -> pode ser utilizado para representar um valor vazio
 
-null pode ser utilizado para representar um valor vazio
+* Undefined -> valor que nao foi definido
 
-* Undefined
-
-valor que nao foi definido
-
-* Number
-
-valores numéricos (podem ser inteiros ou decimais 5 ou 5.0)
+* Number -> valores numéricos (podem ser inteiros ou decimais 5 ou 5.0)
 
 * BigInt (numero grandao)
 
-o tipo Number é limitado por isso o tipo de dado BigInt foi criado. Com ele é possível representar inteiros de precisão não exata. Para fazer uso dele você pode adicionar um n ao final do número inteiro ou chamar a função BigInt() como mostrado abaixo:
+  o tipo Number é limitado por isso o tipo de dado BigInt foi criado. Com ele é possível representar inteiros de precisão não exata. Para fazer uso dele você pode adicionar um n ao final do número inteiro ou chamar a função BigInt() como mostrado abaixo:
 ````
 90071992547409910n * 100n
 9007199254740991000n
@@ -51,12 +47,14 @@ com o Number:
 9007199254740990000
 ````
 
-String (representa textos)
+String -> representa textos
 ```
 'hello world'
 "hello world"
 `hello world`
 ```
+
+
 
 
 # Operadores
@@ -76,6 +74,13 @@ String (representa textos)
 
 a = 2 -> atribui valor de 2 para a
 
+
+## Operadores Lógicos
+
+```
+&&  significa E
+||  significa OU
+```
 
 ## Operadores de Comparação
 
@@ -112,12 +117,9 @@ E a internet não perdoa as surpresas:
 
 ![meme1](./images/meme-javascripto.png)
 
- ## Operadores Lógicos
 
- ```
- &&  significa E
- ||  significa OU
- ```
+
+
 
 # Estruturas Condicionais
 
@@ -167,9 +169,6 @@ if (idade >= 18) {
   console.log('entrada permitida apenas para maiores de idade.')
 }
 ```
-else funciona como um 'se não'.
-Se for maior de idade pode entrar, se não for maior de idade, não entra.
-
 
 Agora mudamos um pouco a regra e complicamos um poco:
 - se for maior de 18 entra
@@ -186,6 +185,7 @@ if (idade >= 18 && idade < 21) {
 }
 ````
 O else if pode ser repetido quantas vezes for necessário.
+
 
 ## Switch Case
 
@@ -216,6 +216,9 @@ switch (produto) {
     console.log('desculpe, nao temos o produto desejado');
 }
 ````
+
+
+
 
 
 # Escopo
@@ -278,35 +281,11 @@ Reatribuíção:
 batata = 'batata-frita'
 ```
 
-
-
 ## var
 
 É  mais antiga forma de definir variáveis no javascript.
-a __var__ pode ser reatribuída e redeclarada.
+Ela pode ser reatribuída e redeclarada.
 Diferentemente da const e da let ela não tem escopo de bloco.
-
-Ou seja:
-````
-if (2 > 1) {
-  var nome = 'larissa'
-}
-console.log(nome)
-````
-
-podemos declarar a mesma var duas vezes:
-````
-var x = 0
-var x = 3
-console.log(x) //3
-````
-
-podemos reatribuir um valor a uma var:
-````
-var x = 0
-x = 3
-console.log(x) //3
-````
 
 
 ## let
@@ -314,53 +293,16 @@ console.log(x) //3
 A let junto com a const vieram no es6 (atualização de 2015).
 Ela também pode ter o seu valor reatribuido mas não pode ser redeclarado.
 
-Mas diferente da var ela tem escopo de bloco:
-````
-if (2 > 1) {
-  let nome = 'larissa'
-}
-console.log(nome)
-//ReferenceError: nome is not defined
-````
-
-
-não podemos declarar a mesma let duas vezes:
-````
-let be = 0
-let be = 3
-console.log(x) // SyntaxError: Identifier 'be' has already been declared
-````
-
-mas podemos reatribuir um valor a let:
-```
-let be = 0
-be = 2
-console.log(be) // 2
-```
 
 ## const
+
 A const (constante) não pode ter seu valor reatribuído nem redeclarado.
 Diferentemente da let e da var. E assim com a let ela também tem escopo de bloco.
 
-````
-if (2 > 1) {
-  const nome = 'larissa'
-}
-console.log(nome) //ReferenceError: nome is not defined
-````
 
-````
-const x = 0
-const x = 2
-console.log(x) // SyntaxError: Identifier 'x' has already been declared
-````
 
-````
-const x = 0
-x = 2
-console.log(x) // TypeError: Assignment to constant variable.
-````
 
+# Links :
 
 * eloquent Javascript - https://braziljs.github.io/eloquente-javascript/chapters/valores-tipos-operadores/
 
