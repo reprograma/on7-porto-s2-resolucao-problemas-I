@@ -247,7 +247,7 @@ Veja que conseguimos acessa-lá de dentro do escopo local.
 const popular = 'oi'
 if (2 > 1) {
   //escopo local
-  console.log(restrito)
+  console.log(popular)
 }
 ```
 
