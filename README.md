@@ -12,7 +12,7 @@ Na linha de comando digite:
 `node --version`
 
 Se tiver instalado vai aparecer a versão.
-Caso não tenha: (link para instalação)[https://nodejs.org/en/download/]
+Caso não tenha, esse é o link para instalação: https://nodejs.org/en/download/
 
 # Tipos em JavaSscript
 
