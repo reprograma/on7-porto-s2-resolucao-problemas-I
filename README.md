@@ -1,6 +1,6 @@
 # Hello Node.js
 
-![node](./images/nodejs.png)
+![node](./images/nodejs.jpg)
 
 O que é o node?
 O Node.js pode ser definido como um ambiente de execução Javascript server-side.
