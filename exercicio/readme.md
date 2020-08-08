@@ -38,7 +38,9 @@ const input = require("readline-sync");
 ````
 
 - finalizado o trabalho suba o código:
-      - ``git add .``
-      - ``git commit -m "o que eu fiz"``
-      - ``git push origin nome-da-sua-branch``
+      ```
+       - git add
+       - git commit -m "o que eu fiz"
+       - git push origin nome-da-sua-branch
+      ```
 - Abra a pull request e coloque o link  no google classroom

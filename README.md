@@ -3,11 +3,13 @@
 ![node](./images/nodejs.jpg)
 
 O que é o node?
+
 O Node.js pode ser definido como um ambiente de execução Javascript server-side.
 Ou seja com o node usamos JavaScript <3 no server-side(backend)
 
 Já tem o node instalado?
-Na linha de comando digite:
+
+Para checar digite na linha de comando:
 
 `node --version`
 
