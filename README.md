@@ -195,7 +195,7 @@ switch(expression) {
     // code block
 }
 ```
-
+````
 const produto = 'mamão'
 
 switch (produto) {
@@ -209,7 +209,7 @@ switch (produto) {
   default:
     console.log('desculpe, nao temos o produto desejado');
 }
-
+````
 
 
 # Escopo
