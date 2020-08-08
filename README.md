@@ -253,12 +253,16 @@ if (2 > 1) {
 
 Uma variável faz referencia a um espaço na memória do computador utilizado para guardar informações que serão usadas em seus programas
 
-Declaração da variável batata e atribuição do valor 'pure' a ela:
-```let batata = 'pure' ```
+Declaração:
+```
+let batata = 'pure'
+```
 
 
 Reatribuíção
-```batata = 'batata-frita'```
+```
+batata = 'batata-frita'
+```
 
 ```
 var nome = 'natalya'
