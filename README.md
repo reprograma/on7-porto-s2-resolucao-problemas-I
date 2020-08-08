@@ -16,7 +16,7 @@ Para checar digite na linha de comando:
 Se tiver instalado vai aparecer a versão.
 Caso não tenha, esse é o link para instalação: https://nodejs.org/en/download/
 
-# Tipos em JavaSscript
+# Tipos em Javascript
 
 ## Tipagem dinâmica
 JavaScript é uma linguagem de tipagem dinâmica. Isso significa que você não necessita declarar o tipo de uma variável antes de sua atribuição. O tipo será automaticamente determinado quando o programa for processado. Isso também significa que você pode reatribuir uma mesma variável com um tipo diferente.
