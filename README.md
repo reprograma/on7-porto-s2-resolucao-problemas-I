@@ -16,17 +16,15 @@ Para checar digite na linha de comando:
 Se tiver instalado vai aparecer a versão.
 Caso não tenha, esse é o link para instalação: https://nodejs.org/en/download/
 
+````> console.log("Hello World")````
 
 
 # Tipos em Javascript
 
-## Tipagem dinâmica
-JavaScript é uma linguagem de tipagem dinâmica. Isso significa que você não necessita declarar o tipo de uma variável antes de sua atribuição. O tipo será automaticamente determinado quando o programa for processado. Isso também significa que você pode reatribuir uma mesma variável com um tipo diferente.
-
 ## Tipos Primitivos
 
 * Boolean
-`false`(0) e `true`(1)
+`false` e `true`
 
 * Null (nulo) -> pode ser utilizado para representar um valor vazio
 
@@ -54,7 +52,10 @@ String -> representa textos
 `hello world`
 ```
 
+## Outros tipos
 
+* Object
+* Function
 
 
 # Operadores
@@ -139,7 +140,7 @@ if (condição) {
 } else {
   // se a primeira condição não for verdadeira, o código aqui dentro será executado
 }
-````
+```
 
 ````
 if (condição) {
@@ -201,6 +202,7 @@ switch(expression) {
     // code block
 }
 ```
+
 ````
 const produto = 'mamão'
 
@@ -259,6 +261,9 @@ if (2 > 1) {
 ```
 
 # Variáveis
+
+## Tipagem dinâmica
+JavaScript é uma linguagem de tipagem dinâmica. Isso significa que você não necessita declarar o tipo de uma variável antes de sua atribuição. O tipo será automaticamente determinado quando o programa for processado. Isso também significa que você pode reatribuir uma mesma variável com um tipo diferente.
 
 Uma variável faz referencia a um espaço na memória do computador utilizado para guardar informações que serão usadas em seus programas.
 
