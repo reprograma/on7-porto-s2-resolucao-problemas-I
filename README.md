@@ -28,7 +28,8 @@ Agora vamos ver ele em ação, no terminal (ou gitbash) digite:
 Repare aque agora o terminal mostrará `>`e aqui podemos digitar:
 ````console.log("Hello World")````
 
-
+Para executar um arquivo, vamos no terminal, entramos na pasta que o arquivo `.js` está e digitamos:
+````node nome-do-arquivo.js````
 
 # Tipos em Javascript
 
