@@ -5,18 +5,29 @@
 O que é o node?
 
 O Node.js pode ser definido como um ambiente de execução Javascript server-side.
-Ou seja com o node usamos JavaScript <3 no server-side(backend)
+Ou seja com o node usamos JavaScript <3 no backend.
+
+Ele foi construído em cima da engine __V8__ que interpreta JavaScript, criado pela Google e usado em seu navegador, o Chrome. Isso quer dizer que você utilizará a linguagem pelo lado do servidor também, e não só pelo browser, como normalmente ocorre.
+
+Além disso, ele usa uma arquitetura voltada a eventos, o que se integra muito bem com JavaScript.
+Usando um loop de eventos, o Node interpreta, em uma única thread, as requisições de forma assíncrona em vez de sequenciais, e não permitindo bloqueios. Isso o torna __incrivelmente rápido, perfeito para lidar com um número muito alto de requisições.__
 
 Já tem o node instalado?
 
 Para checar digite na linha de comando:
-
 `node --version`
 
 Se tiver instalado vai aparecer a versão.
 Caso não tenha, esse é o link para instalação: https://nodejs.org/en/download/
 
-````> console.log("Hello World")````
+Agora vamos ver ele em ação, no terminal (ou gitbash) digite:
+````node````
+
+![nodejs](./images/node.png)
+
+Repare aque agora o terminal mostrará `>`e aqui podemos digitar:
+````console.log("Hello World")````
+
 
 
 # Tipos em Javascript
@@ -220,9 +231,6 @@ switch (produto) {
 ````
 
 
-
-
-
 # Escopo
 
 A grande maioria das linguagens possui o conceito de escopos, e JavaScript não é diferente. Escopo é a acessibilidade de objetos, variáveis e funções em diferentes partes do código.
@@ -237,7 +245,8 @@ Todos tem acesso a valores que são definidos no escopo global.
 
 No escopo local, variaveis que sao criadas dentro dele não podem ser acessadas no escopo global(com excessao da var).
 
-Escopos locais são criados através de funções e blocos de código.
+Escopos locais são criados através de __funções__ e __blocos__ de código.
+Bloco de código é tudo que está dentro de chaves `{}`
 
 ```
 // escopo global
@@ -262,26 +271,32 @@ if (2 > 1) {
 
 # Variáveis
 
-## Tipagem dinâmica
-JavaScript é uma linguagem de tipagem dinâmica. Isso significa que você não necessita declarar o tipo de uma variável antes de sua atribuição. O tipo será automaticamente determinado quando o programa for processado. Isso também significa que você pode reatribuir uma mesma variável com um tipo diferente.
+JavaScript é uma linguagem de __tipagem dinâmica__.
+Isso significa que você não necessita declarar o tipo de uma variável antes de sua atribuição.
+O tipo será automaticamente determinado quando o programa for processado.
+Isso também significa que você pode reatribuir uma mesma variável com um tipo diferente.
 
-Uma variável faz referencia a um espaço na memória do computador utilizado para guardar informações que serão usadas em seus programas.
+
+Uma variável faz referencia a um espaço na memória do computador.
+São utilizadas para guardar informações que serão usadas nos programas.
+
 
 Criamos a variável nome e atribuimos o valor string de 'natalya' a ela.
 em seguida acessamos a variavel e a mostramos na tela.
+
 ```
 var nome = 'natalya'
 console.log(nome)
 ```
 
 
-Na declaração usamos as palavras reservadas (var, let ou const):
+Na __declaração__ usamos as palavras reservadas (var, let ou const):
 ```
 let batata = 'pure'
 ```
 
 
-Reatribuíção:
+__Reatribuíção:__
 ```
 batata = 'batata-frita'
 ```
@@ -306,6 +321,29 @@ Diferentemente da let e da var. E assim com a let ela também tem escopo de bloc
 
 
 
+# Resolução de problemas / Algoritmos
+
+Com os conceitos que aprendemos hoje, já podemos criar algoritmos para resolução de problemas.
+
+__Definição do Wikipedia:__ Em ciência da computação, um algoritmo é uma sequência finita de ações executáveis que visam obter uma solução para um determinado tipo de problema. Segundo Dasgupta, Papadimitriou e Vazirani, "algoritmos são procedimentos precisos, não ambíguos, mecânicos, eficientes e corretos".
+
+Em outras palavras algoritmos são instruções ordenadas que executadas resolvem um determinado problema.
+
+Exemplos do dia-a-dia:
+
+| Problemas       |    Solução    |
+|----------------:|:----------------------------------------------------:|
+| Fazer um bolo   | Receita com instruçoes                               |
+| Ligar a TV      | 1 Procurar controle remoto; 2 apertar botao de ligar |
+| Montar um Móvel | Seguir manual com instruções                         |
+
+Todas os problemas acima são resolvidos com algoritmos.
+
+No mundo da engenharia de software é assim, quando temos que resolver um problema
+pensamos de forma estruturada e ordenada de como resolve-lo e passamos as instruções para
+o computador por meio de linguagem de programação.
+
+
 
 # Links :
 
@@ -318,3 +356,5 @@ Diferentemente da let e da var. E assim com a let ela também tem escopo de bloc
 * node - https://www.opus-software.com.br/node-js/
 
 * const, let e var - https://medium.com/@natalya.peixoto/var-const-e-let-qual-a-diferen%C3%A7a-338ff0c7a972
+
+* algoritmo - https://www.cursoemvideo.com/course/curso-de-algoritmo/
