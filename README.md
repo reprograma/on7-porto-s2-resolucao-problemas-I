@@ -56,7 +56,7 @@ com o Number:
 9007199254740990000
 ````
 
-String -> representa textos
+* String -> representa textos
 ```
 'hello world'
 "hello world"
@@ -78,7 +78,7 @@ String -> representa textos
 -  menos
 *  multiplicação
 /  divisão
-%  resto
+%  modulo (ou resto)
 ** potencia
 ```
 
@@ -140,8 +140,8 @@ Na programação utilizamos estruturas condicionais para decidir se algo deve ou
 ## if/ else if/ else
 
 ```
-if (condicao) {
-  ação
+if (condição) {
+  // se a condição for verdadeira, o código aqui dentro será executado
 }
 ```
 
