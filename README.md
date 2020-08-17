@@ -367,6 +367,8 @@ parseFloat("8989.8") // Retorna 8989.8 : aqui também e ele NÃO ignorou o numer
 
 * toFixed
 
+Esse método converte um __número__ em uma __string__, arredondando esse número ao número de casa decimais passado por argumento.
+
 ````
 const numObj = 12345.6789;
 
