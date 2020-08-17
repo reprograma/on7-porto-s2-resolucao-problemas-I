@@ -344,7 +344,37 @@ No mundo da engenharia de software é assim, quando temos que resolver um proble
 pensamos de forma estruturada e ordenada de como resolve-lo e passamos as instruções para
 o computador por meio de linguagem de programação.
 
+# Conteúdo Extra:
 
+* parseInt
+
+Analisa um argumento __string__, e retorna um __numero__ inteiro
+
+```
+parseFloat("89898")  // Retorna 89898 : note que aqui ele transforou uma string em Number
+parseFloat("8989.8") // Retorna 8989  : aqui também porém ignorou o numero depois do ponto.
+```
+
+* parseFloat
+
+Analisa um argumento __string__, e retorna um __numero__ de ponto flutuante
+
+````
+parseFloat("89898")  // Retorna 89898 : note que aqui ele transforou uma string em Number
+parseFloat("8989.8") // Retorna 8989.8 : aqui também e ele NÃO ignorou o numero depois do ponto.
+
+````
+
+* toFixed
+
+````
+const numObj = 12345.6789;
+
+numObj.toFixed();       // Retorna '12346': note o arredondamento, tiramos todos os números depois do ponto.
+numObj.toFixed(1);      // Retorna '12345.7': note o arredondamento, com 1 numero apos o ponto.
+numObj.toFixed(6);      // Retorna '12345.678900': note que adicionou zeros e deixou 6 numeros após o ponto.
+
+````
 
 # Links :
 
@@ -359,3 +389,9 @@ o computador por meio de linguagem de programação.
 * const, let e var - https://medium.com/@natalya.peixoto/var-const-e-let-qual-a-diferen%C3%A7a-338ff0c7a972
 
 * algoritmo - https://www.cursoemvideo.com/course/curso-de-algoritmo/
+
+* toFixed - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed
+
+* parseFloat - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/parseFloat
+
+* parseInt - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/parseInt
