@@ -348,7 +348,7 @@ o computador por meio de linguagem de programação.
 
 * parseInt
 
-Analisa um argumento __string__, e retorna um __numero__ inteiro
+Analisa um argumento __string__, e retorna um __numero__ inteiro.
 
 ```
 parseFloat("89898")  // Retorna 89898 : note que aqui ele transforou uma string em Number
@@ -397,3 +397,7 @@ numObj.toFixed(6);      // Retorna '12345.678900': note que adicionou zeros e de
 * parseFloat - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/parseFloat
 
 * parseInt - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/parseInt
+
+* CURSO EM VIDEO - https://www.cursoemvideo.com/cursos/
+
+* FREECODECAMP - https://www.freecodecamp.org/learn
