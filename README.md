@@ -158,9 +158,9 @@ if (condição) {
 if (condição) {
   // se a condição for verdadeira, o código aqui dentro será executado
 } else if (condição) {
-  // se a condição anterior não for verdadeira, o código aqui dentro será executado
+  // se a condição anterior não for verdadeira e a condição atual for, o código aqui dentro será executado
 } else {
-  // se a condição anterior não for verdadeira, o código aqui dentro será executado
+  // se as condições anteriores não forem verdadeiras, o código aqui dentro será executado
 }
 ````
 
