@@ -1,12 +1,9 @@
 const input = require('readline-sync')
 
-const input1 = input.question('valor um')
-const input2 = input.question('valor dois')
-
-
-const total = parseFloat(input1) + parseFloat(input2)
-
-console.log(total.toFixed(2))
+let input1 = input.question('valor um')
+if (isNaN(input1)) {
+  input1 = input.question('digite um numero, meu fi!: ')
+}
 
 
 // pegar os inputs
